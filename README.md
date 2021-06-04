@@ -13,4 +13,7 @@
     ```
   * Once the python file is ready it has to be converted to .apk file.
   * This could be done using ubuntu operating system.
-  * 
+  * In the terminal run the command "bash buildozer_installer.sh" to install all the dependencies.
+  * Then inorder to install the buildozer.spec file run the command "buildozer init".
+  * Then run the final command "buildozer android dubug".
+  * You will then get an .apk file which could be installed in the phone.
